@@ -65,7 +65,7 @@ int main(int argc, char* argv[])
     cout << size << endl;
     int s = size-1;
     cout << s << endl;
-    MIS = mps.MPS(0, 11, data);
+    MIS = mps.MPS(0, s, data);
     mps.find_chord(data);
 
     //tmusg.getPeriodUsage(stat);
